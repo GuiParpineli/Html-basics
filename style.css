@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+main {
+    color: black;
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.fundo{
+    background-color: rgba(243, 239, 239, 0.6);
+}
+
+
+b{
+    color: black;
+   
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+   
+}
+
+h2{
+    margin-top:  20px;
+    font-weight: 900; 
+   
+}
+
+.main_text, h2{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.title{
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);    
+}
+
+.brasao{
+    padding:10px;
+    height: 180px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 4%;
+    transform: translate(-50%, 30%);
+
+
+}
+
+.container_background{
+    background-image: url('https://www.bomjesusdosbatataes.com.br/wp-content/uploads/2015/12/matriz-1024x604.png');
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+iframe {
+   padding:50px;
+   position: relative;
+   left: 50%;
+   transform: translatex(-50%);
+
+}
+
+header{
+    padding: 20px;
+
+}
+
+footer{
+    width: 200px;
+    display: inline-block;  
+    position: relative;  
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.youtube{
+    height:auto;
+    width: 90px;
+    bottom: 15px;
+    position: relative;
+    
+}
+
+.instagram{
+    height:auto;
+    width: 95px;
+    
+}
