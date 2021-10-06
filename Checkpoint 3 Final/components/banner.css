@@ -1,0 +1,62 @@
+.banner {
+  background-image: url("https://hdwallsource.com/img/2016/7/interstellar-movie-poster-widescreen-wallpaper-49235-50899-hd-wallpapers.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.banner-text {
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  color: white;
+  top: 30%;
+  font-size: 2.5em;
+  font-weight: bolder;
+  text-shadow: black 4px 2px 2px;
+}
+
+.banner-button {
+  position: relative;
+  top: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.banner-button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-button:hover {
+  background-color: orange;
+  color: black;
+}
+
+@media (min-width: 300px) and (max-width: 1366px) {
+  .banner {
+    width: 100%;
+    background-position: top right;
+  }
+  .banner-text {
+    text-align: center;
+    font-size: 1.2rem;
+    top: 30%;
+  }
+  .banner-button {
+    top: 40%;
+  }
+}
+/*# sourceMappingURL=banner.css.map */

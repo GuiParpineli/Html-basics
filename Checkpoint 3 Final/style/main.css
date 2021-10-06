@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url("https://hdwallsource.com/img/2016/7/interstellar-movie-poster-widescreen-wallpaper-49235-50899-hd-wallpapers.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.banner-text {
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  color: white;
+  top: 30%;
+  font-size: 2.5em;
+  font-weight: bolder;
+  text-shadow: black 4px 2px 2px;
+}
+
+.banner-button {
+  position: relative;
+  top: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.banner-button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-button:hover {
+  background-color: orange;
+  color: black;
+}
+
+@media (min-width: 300px) and (max-width: 1366px) {
+  .banner {
+    width: 100%;
+    background-position: top right;
+  }
+  .banner-text {
+    text-align: center;
+    font-size: 1.2rem;
+    top: 30%;
+  }
+  .banner-button {
+    top: 40%;
+  }
+}
+
+.movie-list {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.first {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("https://flxt.tmsimg.com/assets/p11682476_b_h8_af.jpg");
+}
+
+.second {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/db626980a3d452ed37a559bb10d65205a22333cf9f25b4792ad15a2351ea9e95._RI_V_TTW_.jpg");
+}
+
+.thirth {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("http://2.bp.blogspot.com/-KzxGvzAWy-U/UkXGSVQDx5I/AAAAAAAAAYw/6qR3lTPURgk/s1600/seriado-lost.jpg");
+}
+
+.fourth {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f122417c55feda5c465f701320892661bfea27c1dfcff81e7fb0641ba29171c._RI_V_TTW_.jpg");
+}
+
+.five {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("https://i.ytimg.com/vi/9sx6_agXRvk/maxresdefault.jpg");
+}
+
+.six {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 25%;
+  cursor: pointer;
+  background-image: url("https://2.bp.blogspot.com/-i-Xf35MG2Lg/WUvKrBMHPyI/AAAAAAAALn8/E3IcrM_61Pwct5_DcdML1P2okrE_WhvNQCLcBGAs/s1600/258ec2aa43c209f7e1b5081a5cac64a9-interstellar-1468642810.jpg");
+}
+
+.movie-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px 10px;
+  text-align: center;
+  top: 80%;
+  color: white;
+  position: relative;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.movie-text:hover {
+  overflow: visible;
+  font-size: 1.2rem;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  -webkit-transform: scale(1.2) translateY(-20%);
+          transform: scale(1.2) translateY(-20%);
+  border-radius: 10px;
+}
+
+.movie-button {
+  position: relative;
+  padding: 0;
+  left: calc(80% - 20px);
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 6rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.movie-button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.movie-button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media (min-width: 300px) and (max-width: 1366px) {
+  .movie1 {
+    margin: 10px;
+    width: 100%;
+  }
+  .movie-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .movie-button {
+    position: relative;
+    padding: 0;
+    left: calc(80% - 60px);
+  }
+}
+
+main {
+  background-color: red 24, 24, 24;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.main-title {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

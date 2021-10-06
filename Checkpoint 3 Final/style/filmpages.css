@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #181818;
+  color: white;
+}
+
+.detalhes_movie {
+  padding: 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+p {
+  padding: 30px;
+  position: relative;
+}
+
+.play-button {
+  font-weight: bolder;
+  background-color: orange;
+  display: block;
+  position: relative;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  iframe {
+    max-height: 200px;
+    padding: 10px;
+  }
+  p {
+    padding-bottom: 0;
+  }
+}
+/*# sourceMappingURL=filmpages.css.map */

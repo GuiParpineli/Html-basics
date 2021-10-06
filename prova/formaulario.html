@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <ul class='menu'>
+            <li><a href="index.html"><img  src="1200px-BrasaoBatatais.svg-1.png" class="brasao"></a></li>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="formaulario.html">Contato</a></li>
+        </ul>
+      </header>
+
+    <div class="background">
+
+    <div class="base"></div>  
+    
+    <form action="https://" method="post">
+        <h1>Contato</h1>
+        <div>
+        <label for="name">Nome</label>
+        </div>
+        <input type="text" id="name" placeholder="Nome" maxlength="100" required>
+        
+        <div>
+        <label for="email">E-mail</label>
+        </div>
+        <input type="email" id="email" placeholder="seu email" required>
+        
+        <div>
+        <label for="telefone">Telefone</label>
+        </div>
+        <input type="tel" id="telefone" placeholder="99 99999 9999" pattern = '[0-9]{2} [0-9]{5} [0-9]{4}' required>
+        
+        <div>
+        <label for="data nascimento">Data Nascimento</label>
+        </div>
+        <input type="date" id="data nascimento" placeholder= 'Sua Data de Nascimento' required>
+
+        <div>
+        <label>Maior de Idade?</label>
+        </div>
+        <div>
+        <select name='Maior de idade?'>
+            <option value="none" disable>Selecione</option>
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>           
+        </select>
+        </div>
+
+        <div>
+        <label>Pontos de Interesse</label>
+        </div>
+        <div>
+        <select name='Pontos turisticos'>
+            <option value="none" disable>Selecione um lugar</option>
+            <option value="Lago">Lago Artificial</option>
+            <option value="Praça da Matriz">Matriz da cidade</option>           
+            <option value="Cachoeira">Cachoeira</option>           
+        </select>
+        </div>
+
+        <div>
+        <button type="submit" >Enviar</button>
+        <button type="reset">Reiniciar</button>
+        </div>
+    </form>
+    
+
+    
+
+</body>
+</html>
