@@ -14,16 +14,19 @@ body {
 
 .detalhes_movie {
   padding: 30px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 iframe {
-  width: 100%;
-  height: 600px;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60em;
+  padding: 10px 100px;
+  height: 40em;
 }
 
 h1 {
@@ -34,6 +37,11 @@ h1 {
 }
 
 p {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50%;
   padding: 30px;
   position: relative;
 }
@@ -53,11 +61,18 @@ p {
 
 @media (min-width: 300px) and (max-width: 768px) {
   iframe {
-    max-height: 200px;
+    width: 100%;
+    max-height: 300px;
     padding: 10px;
   }
   p {
+    width: 100%;
     padding-bottom: 0;
+  }
+  .play-button {
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(0.7);
+            transform: translateX(-50%) scale(0.7);
   }
 }
 /*# sourceMappingURL=filmpages.css.map */
